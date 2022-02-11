@@ -445,14 +445,14 @@
 <script>
         window.addEventListener('load', init, false);
         function init() {
-            let div = document.querySelector('#ocultar-y-mostrar');
-            div.style.display = 'none';
+            let d = document.querySelector('#ocultar-y-mostrar');
+            d.style.visibility = 'hidden';
             let boton = document.querySelector('#ocultar-mostrar');
             boton.addEventListener('click', function (e) {
-                if(div.style.display === 'none'){
-                    div.style.display = 'block';
+                if(d.style.visibility = 'hidden';){
+                    d.style.visibility = 'visible';
                 }else{
-                    div.style.display = 'none';
+                    d.style.visibility = 'visible';
                 }
             }, false);
         }
