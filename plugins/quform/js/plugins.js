@@ -280,7 +280,7 @@
 			scrollSpeed: 400,
 			scrollThreshold: 20,
 			scrollOffset: -50,
-			errorTitle: 'There was a problem',
+			errorTitle: 'Gracias por contactarnos',
 			errorResponseEmpty: 'An error occurred and the response from the server was empty.',
 			errorAjax: 'An Ajax error occurred.',
 			errorPosition: 'above'
