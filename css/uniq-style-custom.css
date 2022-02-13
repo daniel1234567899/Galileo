@@ -551,3 +551,20 @@ span.woocommerce-Price-amount.amount{ color: #707070; }.uniq-top-cart-content-wr
 .gdlr-core-page-builder-body [data-skin="Testimonial Bullet"] .gdlr-core-button, .gdlr-core-page-builder-body [data-skin="Testimonial Bullet"] .gdlr-core-button-color{ background-color: #949fc1 }.gdlr-core-page-builder-body [data-skin="Testimonial Bullet"] input[type="button"], .gdlr-core-page-builder-body [data-skin="Testimonial Bullet"] input[type="submit"]{ background-color: #949fc1; }.gdlr-core-page-builder-body [data-skin="Testimonial Bullet"] .gdlr-core-pagination a{ background-color: #949fc1 }
 
 .uniq-item-mgb, .gdlr-core-item-mgb{ margin-bottom: 40px; }
+
+.newsleter {
+	position: absolute; 
+	left: 38%; 
+	top: 12%; 
+	z-index: 3;
+}
+
+@media screen and (max-width: 800px) {
+	.newsleter {		
+		left: 9%; 
+		top: 1%;
+	}
+	.newsleter input[type=email]{
+		width: 250px !important;
+	}
+}
