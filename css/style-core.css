@@ -6841,3 +6841,19 @@ html.mm-opening.uniq-mmenu-right .uniq-mobile-header {
 @media (max-width:992px){
   .tns-brands .tns-item{transform:scale(0.6)}
 }
+.newsleter {
+	position: absolute; 
+	left: 38%; 
+	top: 12%; 
+	z-index: 3;
+}
+
+@media screen and (max-width: 800px) {
+	.newsleter {		
+		left: 9%; 
+		top: 1%;
+	}
+	.newsleter input[type=email]{
+		width: 250px !important;
+	}
+}
