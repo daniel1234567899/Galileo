@@ -118,7 +118,51 @@ section,
 blockquote {
 	display: block;
 }
+*{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+       #btn-mas{
+           display: none;
+       }
+       .cotenido{
+           position: fixed;
+           bottom: 10px;
+           right: 20px;
+             z-index:99;
+       }
+       .redes a, .btn-mas label{
+           display: block;
+           text-decoration: none;
+           font-size: 30px;
+           color: #fff !important;
+           width: 55px;
+           height: 55px;
+           line-height:50px;
+           text-align: center;
+           padding: 8%;
+           border-radius: 50%;
+           box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+           transition: all 500ms ease;
+           
+       }
 
+       .redes a{
+           margin-bottom: -15px;
+           opacity: 0;
+           visibility: hidden;
+       }
+       #btn-mas:checked~ .redes a{
+           margin-bottom: 10px;
+           opacity: 1;
+           visibility: visible;
+       }
+       .btn-mas label{
+           cursor: pointer;
+           background: #B4031C;
+           font-size: 30px;
+       }
 nav ul {
 	list-style: none;
 }
