@@ -1,13 +1,15 @@
+<!DOCTYPE html>
 <html lang=es prefix="og: http://ogp.me/ns#" class=no-js>
 
 <head>
     <meta charset=UTF-8>
     <meta name=viewport content="width=device-width, initial-scale=1">
 
-     <title>GALILEO | Prototipado y desarrollo de productos</title>
+    <title>GALILEO | Prototyping and product development</title>
     <link rel="icon" type="image/png" href="images/faicon-galileo.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/faicon-galileo.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/faicon-galileo.png" sizes="96x96">
+
 
 
     <link rel=stylesheet id=gdlr-core-google-font-css href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext%2Cdevanagari%2Ccyrillic-ext%2Cvietnamese%2Ccyrillic&amp;ver=5.1.1' type=text/css media=all>
@@ -19,11 +21,43 @@
     <link rel=stylesheet href='css/style-core.css' type=text/css media=all>
     <link rel=stylesheet href='css/uniq-style-custom.css' type=text/css media=all>
     <script src="https://kit.fontawesome.com/33657cb95f.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+        .caja1{
+             display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-end; align-content: flex-start; align-items: center;
+        }
+        .caja2{
+            width: 50%;
+        }
+        @media only screen and (max-width: 600px){
+            .caja1{
+             
+             flex-direction: column; 
+             
+        }
+        .caja2{
+            width: 100%;
+        }
+
+        }
+    </style>
 
 
 </head>
 
 <body class="home page-template-default page page-id-6559 gdlr-core-body uniq-body uniq-body-front uniq-full  uniq-with-sticky-navigation  uniq-blockquote-style-1 gdlr-core-link-to-lightbox" data-home-url=https://demo.goodlayers.com/uniq/onepage/>
+<script>
+    window.onload = function () {
+
+   var ln = navigator.language || navigator.userLanguage;
+   if (ln == 'es-ES') {
+
+     console.log("español")
+     window.location.replace("joints-spearfishing.html");
+   
+   }
+
+}
+</script>
 <div class="cotenido">
     <input type="checkbox" id="btn-mas">
     <div class="redes">
@@ -51,10 +85,10 @@
                 <div class=uniq-mobile-menu><a class="uniq-mm-menu-button uniq-mobile-menu-button uniq-mobile-button-hamburger" href=#uniq-mobile-menu><span></span></a>
                     <div class="uniq-mm-menu-wrap uniq-navigation-font" id=uniq-mobile-menu data-slide=right>
                         <ul id=menu-main-one-page class=m-menu>
-                            <li class="menu-item uniq-normal-menu"><a href=index.html#home>Inicio</a></li>
-                            <li class="menu-item uniq-normal-menu"><a href=index.html#services>Servicios</a></li>
-                            <li class="menu-item uniq-normal-menu"><a href=index.html#works>Trabajos</a></li>                            
-                            <li class="menu-item uniq-normal-menu"><a href=contact.html>Contacto</a></li>
+                            <li class="menu-item uniq-normal-menu"><a href=index.html#home>Home</a></li>
+                            <li class="menu-item uniq-normal-menu"><a href=index.html#services>Services</a></li>
+                            <li class="menu-item uniq-normal-menu"><a href=index.html#works>Works</a></li>                            
+                            <li class="menu-item uniq-normal-menu"><a href=contact.html>Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,10 +111,10 @@
                         <div class="uniq-navigation uniq-item-pdlr clearfix ">
                             <div class=uniq-main-menu id=uniq-main-menu>
                                 <ul id=menu-main-one-page-1 class=sf-menu>
-                                    <li class="menu-item uniq-normal-menu"><a href=index.html#home>Inicio</a></li>
-                                    <li class="menu-item uniq-normal-menu"><a href=index.html#services>Servicios</a></li>
-                                    <li class="menu-item uniq-normal-menu"><a href=index.html#works>Trabajos</a></li>                                    
-                                    <li class="menu-item uniq-normal-menu"><a href=contact.html>Contacto</a></li>
+                                    <li class="menu-item uniq-normal-menu"><a href=index.html#home>Home</a></li>
+                                    <li class="menu-item uniq-normal-menu"><a href=index.html#services>Services</a></li>
+                                    <li class="menu-item uniq-normal-menu"><a href=index.html#works>Works</a></li>                            
+                                    <li class="menu-item uniq-normal-menu"><a href=contact.html>Contact</a></li>
                                 </ul>
                                 <div class=uniq-navigation-slide-bar id=uniq-navigation-slide-bar></div>
                             </div>
@@ -112,7 +146,8 @@
             <div class=uniq-page-title-overlay></div>
             <div class="uniq-page-title-container uniq-container">
                 <div class="uniq-page-title-content uniq-item-pdlr">
-                    <h1 class="uniq-page-title">Amidot</h1>
+                    <h1 class="uniq-page-title">Joints Spearfishing </h1>
+                    <h3 style="padding-top: 30px; font-size: 30px;">Spearfishing harpoons</h3>
                     <div class=uniq-page-title-divider></div>
                     
                 </div>
@@ -129,7 +164,7 @@
                             <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
                                 <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=height1>
                                     <div class=gdlr-core-pbf-background-wrap style="box-shadow: 0px 0px 46px rgba(0, 0, 0,0.22); -moz-box-shadow: 0px 0px 46px rgba(0, 0, 0,0.22); -webkit-box-shadow: 0px 0px 46px rgba(0, 0, 0,0.22); border-radius: 3px 3px 3px 3px;-moz-border-radius: 3px 3px 3px 3px;-webkit-border-radius: 3px 3px 3px 3px;">
-                                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(upload/Amidotdesc.jpg) ;background-size: cover ;background-position: center ;" data-parallax-speed=0></div>
+                                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(upload/Joints-Spearfishing.webp) ;background-size: cover ;background-position: center ;" data-parallax-speed=0></div>
                                     </div>
                                     <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content"></div>
                                 </div>
@@ -140,13 +175,14 @@
                                         <div class=gdlr-core-pbf-element>
                                             <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
                                                 <div class="gdlr-core-title-item-title-wrap ">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 35px ;letter-spacing: 0px ;text-transform: none ;color: #000000 ;">Descripción<br>del proyecto<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div>
+                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 35px ;letter-spacing: 0px ;text-transform: none ;color: #000000 ;">Tradition and Technology <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div>
                                             </div>
                                         </div>
+                                        
                                         <div class=gdlr-core-pbf-element>
                                             <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align gdlr-core-no-p-space" style="padding-bottom: 20px ;">
                                                 <div class=gdlr-core-text-box-item-content style="font-size: 18px ;font-weight: 400 ;text-transform: none ;color: #808080 ;">
-                                                    <p>Amidot es una base para Alexa especialmente diseñada para niños. Nuestro objetivo al desarrollar este producto fue ofrecer una protección adicional ante caídas o uso incorrecto y al mismo tiempo hacer de Alexa un producto mas accesible y atractivo para los niños. Amidot incorpora formas de diversos animales; zorro, perro, llama, puercoespín, unicornio entre otros, generando una experiencia más atractiva y cercana entre los niños y su Alexa. 
+                                                    <p>Spearguns elaborated by Joints Spearfishing are the result of family tradition and passion,  manufacturing hundreds of beautiful customized spearguns over the years.<br><br>In this project, we collaborated in designing the CNC toolpaths to offer a more efficient  production tool. With the purpose of satisfying the market demand while preserving the traditional elements of its manufacture. <a id='ocultar-mostrar' style="cursor: pointer; font-weight: 800;">Learn more →</a>
                                                     </p>
                                                 </div>
                                             </div>
@@ -155,14 +191,55 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class=gdlr-core-pbf-element>
+                            <div class=gdlr-core-pbf-element id="ocultar-y-mostrar">
                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align gdlr-core-no-p-space" style="padding: 40px 0px;">
                                     <div class=gdlr-core-text-box-item-content style="font-size: 18px ;font-weight: 400 ;text-transform: none ;color: #808080 ;">
-                                        <p>
+                                        <p>With the growing popularity of spearfishing as a sport and tourist activity, the demand for  specialized equipment, such as spearguns manufactured by Joints Spearfishing, has also increased. However, given the traditional manufacturing process, it became increasingly difficult to satisfy demand and meet delivery schedules. <br><br>
+                                        To solve this problem, we aimed to incorporate some automation into the manufacturing process  without losing the essence of the traditional techniques that make these harpoons a piece of art.<br><br>
+                                        Using Computerized Numerical Control and Computer-Aided Manufacturing, we were able to  speed up the manufacturing process considerably, automating the roughing of wood stock, where a CNC machine removes the material to obtain the base shape of the harpoon to be later carved  by hand for the final form.  <br><br>
+                                       This way, the long and tedious process of roughing the piece is done automatically, allowing the  artisan to focus only on the handmade details that make the harpoon a unique product. <br><br>
+                                       Today, Joints Spearfishing continues the legacy of the inventors behind the famous Tahitian speargun by making it available to people who share a passion for the sea and feel a strong  connection to everything it has to offer. 
+
+
                                         </p>
                                     </div>
                                 </div>
                             </div>
+
+                           <div class=gdlr-core-pbf-element>
+                                <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align gdlr-core-no-p-space" style="padding: 40px 0px;">
+                                    <div class=gdlr-core-text-box-item-content style="font-size: 18px ;font-weight: 400 ;text-transform: none ;color: #808080 ;">
+                                        
+                                        <img src="upload/joints-spearfishing4.jpg" width="100%"><br>
+                                        <img src="upload/joints-spearfishing2.jpg" width="100%">
+                                        
+                                        <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-end; align-content: flex-start; align-items: flex-start;">
+                                        <div>
+                                        <h3 style="padding-top: 30px; font-size: 40px; ">"Our spearguns are built around the needs of professional and sport fishermen."</h3>
+                                        </div>
+                                        </div>
+                                         <img src="upload/joints-spearfishing9.jpg" width="100%">
+                                        <div class="caja1">
+                                        <div class="caja2">
+                                        <h3 style="padding-top: 30px; font-size: 40px; text-align: right; padding-right: 20px;">
+                                            “Within the reach<br>
+                                            of people who<br>
+                                            share a passion<br>
+                                            for the sea<br>
+                                            and feel a<br>
+                                            strong connection<br>
+                                            to  everything<br>
+                                             it has to offer."</h3>
+                                        </div>
+                                        <div>
+                                            <img src="upload/joints-spearfishing8.jpg" width="100%">
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -171,121 +248,6 @@
         
              
 
-                <div class="gdlr-core-pbf-wrapper " style="padding: 40px 0px 10px 0px;" id=works>
-                    <div class=gdlr-core-pbf-background-wrap style="background-color: #f7f7f7 ;"></div>
-                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
-                            <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: -64px 0px 0px 0px;padding: 0px 0px 10px 0px;">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
-                                        <div class=gdlr-core-pbf-element>
-                                            <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align gdlr-core-style-vertical">
-                                                <div class="gdlr-core-divider-line gdlr-core-skin-divider" style="border-color: #000 ;border-width: 2px;height: 75px ;"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
-                                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="margin: 0px 0px 0px 0px;padding: 20px 0px 10px 0px;">
-                                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js " style="max-width: 850px ;">
-                                        <div class=gdlr-core-pbf-element>
-                                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 50px ;">
-                                                <div class="gdlr-core-title-item-title-wrap ">
-                                                    <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 43px ;letter-spacing: 0px ;text-transform: none ;color: #1e1e1e ;">FOTOS DEL PROYECTO<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class=gdlr-core-pbf-element>
-                                <div class="gdlr-core-portfolio-item gdlr-core-item-pdb clearfix  gdlr-core-portfolio-item-style-modern-no-space gdlr-core-item-pdlr" style="padding-bottom: 80px ;"> 
-                                    <div class="gdlr-core-portfolio-item-holder gdlr-core-js-2 clearfix filter-container" data-layout=masonry>
-                                        <div class="gdlr-core-item-list class1 gdlr-core-column-15 gdlr-core-column-first">
-                                            <div class=gdlr-core-portfolio-modern>
-                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title">
-                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  ">
-                                                        <a href=#><img src=upload/Amidot1.jpg alt width=600 height=800 title=port-1-2><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js" style="background: rgba(10, 10, 10, 0.8) ;"><span class=gdlr-core-image-overlay-content ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"  >Amidot</span></span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-item-list class1 gdlr-core-column-15 gdlr-core-column-first">
-                                            <div class=gdlr-core-portfolio-modern>
-                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title">
-                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  ">
-                                                        <a href=#><img src=upload/Amidot3.jpg alt width=600 height=800 title=port-1-2><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js" style="background: rgba(10, 10, 10, 0.8) ;"><span class=gdlr-core-image-overlay-content ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"  >Amidot</span></span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-item-list class1 gdlr-core-column-15 gdlr-core-column-first">
-                                            <div class=gdlr-core-portfolio-modern>
-                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title">
-                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  ">
-                                                        <a href=#><img src=upload/Amidot4.jpg alt width=600 height=800 title=port-1-2><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js" style="background: rgba(10, 10, 10, 0.8) ;"><span class=gdlr-core-image-overlay-content ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"  >Amidot</span></span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-item-list class1 gdlr-core-column-15 gdlr-core-column-first">
-                                            <div class=gdlr-core-portfolio-modern>
-                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title">
-                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  ">
-                                                        <a href=#><img src=upload/Amidot5.jpg alt width=600 height=800 title=port-1-2><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js" style="background: rgba(10, 10, 10, 0.8) ;"><span class=gdlr-core-image-overlay-content ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"  >Amidot</span></span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-item-list class1 gdlr-core-column-15 gdlr-core-column-first">
-                                            <div class=gdlr-core-portfolio-modern>
-                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title">
-                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  ">
-                                                        <a href=#><img src=upload/Amidot6.jpg alt width=600 height=800 title=port-1-2><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js" style="background: rgba(10, 10, 10, 0.8) ;"><span class=gdlr-core-image-overlay-content ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"  >Amidot</span></span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-item-list class1 gdlr-core-column-15 gdlr-core-column-first">
-                                            <div class=gdlr-core-portfolio-modern>
-                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title">
-                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  ">
-                                                        <a href=#><img src=upload/Amidot7.jpg alt width=600 height=800 title=port-1-2><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js" style="background: rgba(10, 10, 10, 0.8) ;"><span class=gdlr-core-image-overlay-content ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"  >Amidot</span></span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="gdlr-core-item-list class1 gdlr-core-column-15 gdlr-core-column-first">
-                                            <div class=gdlr-core-portfolio-modern>
-                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title">
-                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  ">
-                                                        <a href=#><img src=upload/Amidot8.jpg alt width=600 height=800 title=port-1-2><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js" style="background: rgba(10, 10, 10, 0.8) ;"><span class=gdlr-core-image-overlay-content ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;text-transform: none ;"  >Amidot</span></span>
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 
                 <!--<div class="gdlr-core-pbf-wrapper " style="padding: 155px 0px 100px 0px;" data-skin="Testimonial Bullet" id=clients>
                     <div class=gdlr-core-pbf-background-wrap>
@@ -605,7 +567,7 @@
                     <div class="uniq-footer-column uniq-item-pdlr uniq-column-15">
                         <div id=text-2 class="widget widget_text uniq-widget">
                             <div class=textwidget>
-                                <p style="color: #fff; font-weight: 800;">GALILEO</p>
+                                <a class href=index.html ><?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530.86 106.83" style="width: 180px;"><defs><style>.cls-1{fill:#fff;}</style></defs><g><path class="cls-1" d="M201.7,62.36h12.61v24.2c-6.56,4.94-15.59,7.58-24.11,7.58-18.75,0-32.55-12.87-32.55-30.84s13.8-30.84,32.8-30.84c10.48,0,19.17,3.58,24.96,10.31l-8.86,8.18c-4.35-4.6-9.37-6.73-15.42-6.73-11.59,0-19.51,7.75-19.51,19.09s7.92,19.09,19.34,19.09c3.75,0,7.24-.68,10.74-2.56v-17.47Z"/><path class="cls-1" d="M264.57,80.33h-27.69l-5.28,12.78h-14.14l26.58-59.64h13.63l26.67,59.64h-14.48l-5.28-12.78Zm-4.35-10.48l-9.46-22.83-9.46,22.83h18.92Z"/><path class="cls-1" d="M289.31,33.47h13.8v48.4h29.91v11.25h-43.71V33.47Z"/><path class="cls-1" d="M338.64,33.47h13.8v59.64h-13.8V33.47Z"/><path class="cls-1" d="M364.99,33.47h13.8v48.4h29.91v11.25h-43.71V33.47Z"/><path class="cls-1" d="M460.49,82.04v11.08h-46.18V33.47h45.07v11.08h-31.36v12.95h27.69v10.74h-27.69v13.8h32.46Z"/><path class="cls-1" d="M465.59,63.29c0-17.72,13.8-30.84,32.63-30.84s32.63,13.04,32.63,30.84-13.89,30.84-32.63,30.84-32.63-13.12-32.63-30.84Zm51.29,0c0-11.33-8.01-19.09-18.66-19.09s-18.66,7.75-18.66,19.09,8.01,19.09,18.66,19.09,18.66-7.75,18.66-19.09Z"/></g><path class="cls-1" d="M107.75,93.18c-11.15,8.41-27.69,13.65-46.45,13.65C26.93,106.83,0,89.24,0,66.78S26.93,26.73,61.3,26.73l-1.89,5.7c-25.89,.7-48.07,16.49-48.07,32.3,0,18.93,22.88,30.76,49.96,30.76,12.77,0,24.61-2.93,33.55-7.65l-.09-.39-14.25-60.72-8.44,25.5-5.82,17.61-4.95-3.06-4.95-3.06L77.41,0l9.91,6.13,17.49,74.52,2.94,12.53Z"/><path class="cls-1" d="M122.6,66.78h-4.2c0-9.3-6.53-17.89-16.92-24.15l-1.69-7.24c13.99,7.28,22.81,18.54,22.81,31.39Z"/></svg></a>
                             </div>
                         </div>
                     </div>
@@ -662,6 +624,21 @@
         "ajax_url": ""
     };
 </script>
+<script>
+        window.addEventListener('load', init, false);
+        function init() {
+            let div = document.querySelector('#ocultar-y-mostrar');
+            div.style.display = 'none';
+            let boton = document.querySelector('#ocultar-mostrar');
+            boton.addEventListener('click', function (e) {
+                if(div.style.display === 'none'){
+                    div.style.display = 'block';
+                }else{
+                    div.style.display = 'none';
+                }
+            }, false);
+        }
+    </script>
 <script src='plugins/goodlayers-core/include/js/page-builder.js'></script>
 <script src='js/jquery/ui/effect.min.js'></script>
 <script src='js/jquery.mmenu.js'></script>
